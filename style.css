@@ -4,9 +4,26 @@ main{
 body{
     text-align: center;
 }
-header{
+header, footer{
     background-color: #ba6b6c;
-    padding: 7px;
+    text-align: center;
+    height: 90px;
+    width: 100%;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    font-size: 15px;
+    line-height: 80px;
+    text-align: center;
 }
 .left{
     background-color: #efa9a9;
@@ -21,7 +38,7 @@ header{
 .center{
     background-color: mistyrose;
     width: 60%;
-    height: 500px;
+    height: 800px;
 }
 .center img{
     margin: 7px;
@@ -37,4 +54,12 @@ table{
 h2::first-letter{
     font-size: 170%;
     color: rgb(153, 49, 49);
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: left;
 }
